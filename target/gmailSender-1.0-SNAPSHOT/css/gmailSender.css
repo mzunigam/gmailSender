@@ -1,0 +1,54 @@
+.gmailInput{
+    background-color: #444444 !important;
+    color: white !important;
+}
+
+.gmailLine{
+    margin: 0.25rem 1.25rem !important;
+    color: white !important;
+}
+
+
+.gmailButton{
+    background-color: transparent !important;
+    color: rgb(255, 106, 106) !important;
+    border: none;
+    font-size: 1.25rem;
+    height: 2rem;
+}
+
+.gmailButton:hover{
+    scale: 1.25;
+}
+
+.gmailOptions{
+    background-color: #d5d5d5 !important;
+    color: white !important;
+    border: 5px solid #3d3d3d4b !important;
+    font-size: 1.25rem;
+    gap: 2rem;
+}
+
+.gmailOptions i{
+    display: flex;
+    align-items: center;
+    color: rgb(89, 89, 89) !important;
+}
+
+.gmailImage{
+    max-width: 100%;
+    min-width: 20rem;
+    object-fit: cover;
+    margin: 1rem 0 !important;
+}
+
+#textArea{
+min-height: 10rem;  
+max-height: 35rem;
+
+}
+
+.gmailLink{
+    color: rgb(46, 136, 215) !important;
+    margin: 0.25rem 1.25rem !important;
+}
