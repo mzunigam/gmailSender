@@ -42,21 +42,89 @@
     margin: 1rem 0 !important;
 }
 
-#textArea{
-min-height: 10rem;  
-max-height: 35rem;
-background-color: #ffffff;
-}
-
 .gmailLink{
     color: rgb(46, 136, 215) !important;
     margin: 0.25rem 1.25rem !important;
 }
 
-html, body {
-    background-color: #ccc;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+
+#textArea{
+    height: 30rem;
+}
+
+.rte-toggleborder{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+
+rte-bottom{
+    opacity: 0 !important;
+}
+
+.rte_command_togglemore{
+    display: none !important;
+}
+
+.rte_command_fullscreenenter{
+    display: none !important;
+}
+
+.rte-floatpanel-paragraphop{
+    display: none !important;
+}
+
+.rte_command_insertvideo{
+    display: none !important;
+}
+
+
+.rte_command_code{
+    display: none !important;
+}
+
+.rte_command_delete{
+    display: none !important;
+}
+
+.rte_command_lineheight{
+    display: none !important;
+}
+.rte_command_insertdocument{
+    display: none !important;
+}
+
+.select2-selection--multiple{
+    padding: 0 !important;
+    height: 100% !important;
+    max-height: 5rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border: 0 !important;
+}
+
+#subjectGmail{
+    padding: 0.5rem !important;
+    height: 100% !important;
+    
+}
+
+#select2-gmailSelect-result-qurg-, #select2-gmailSelect-results{
+    display: none !important;
+
+}
+
+.rte-toggleborder{
+    width: 50%;
+    height: 50%;
+}
+
+#input-b5{
+    opacity: 0;
+    width: 5rem;
+    cursor: pointer;
+}
+
+#btnSubir{
+    position: absolute;
 }
