@@ -119,7 +119,7 @@ rte-bottom{
     height: 50%;
 }
 
-#input-b5{
+#buscarArchivo{
     opacity: 0;
     width: 5rem;
     cursor: pointer;
@@ -127,4 +127,15 @@ rte-bottom{
 
 #btnSubir{
     position: absolute;
+}
+.rte_menuitem_cmd_imageupload{
+    display: none !important;
+}
+
+.rte_menuitem_cmd_insertgallery{
+    display: none !important;
+}
+
+.rte_menuitem_cmd_insertimagedragdrop{
+    display: none !important;
 }

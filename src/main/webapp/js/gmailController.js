@@ -26,10 +26,8 @@ function iniciar() {
 
     setTimeout( () => {
         const html = document.querySelector('iframe').contentWindow.document.querySelector('html');
-        const body =   document.querySelector('iframe').contentWindow.document.querySelector('body');
-        const rtebottom = document.querySelector('rte-bottom');
+        const body = document.querySelector('iframe').contentWindow.document.querySelector('body');
         const rtecontent = document.querySelector('rte-content');
-
         html.style.overflow = 'hidden';
         rtecontent.style.overflowY = 'scroll';
         body.style.padding = '0';
@@ -59,9 +57,8 @@ async function sendEmail() {
             } )
         }).then( () => {
              console.log( 'enviado a : ' + to );
+             limpiar();
         });
-
-    limpiar();
 
     } );
 
@@ -71,7 +68,7 @@ function limpiar() {
     textArea.selectDoc();
     textArea.delete();
     $('#subjectGmail').val('');
-    $('#gmailSelect').val('');
+    $('#gmailSelect').val(null).trigger('change');
 }
 
 export { iniciar };
